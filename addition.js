@@ -4,8 +4,7 @@ var firstno = document.getElementById("firstno").value
 
 var secondno = document.getElementById("secondno").value
 
-var result = firstno + secondno
-
+var result = parseInt(firstno) + parseInt(secondno)
 document.getElementById("result").value = result
 
 }

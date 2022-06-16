@@ -1,16 +1,20 @@
 <html>
 <head>
 <title> Simple Calculator </title>
+<script src="addition.js" ></script>
+<script src="division.js" ></script>
+<script src="multiply.js" ></script>
+<script src="sub.js" ></script>
 </head>
 <body>
 Firstno : <input type="text" id="firstno" placeholder="Enter first no">
 Secondno : <input type="text" id="secondno" placeholder="Enter second no">
 Result : <input type="text" id="result" readonly placeholder="Result">
 
-<button>Add</button>
-<button>Subtract</button>
-<button>Multiply</button>
-<button>Division</button>
+<button onclick="add()">Add</button>
+<button onclick="sub()">Subtract</button>
+<button onclick="multiply()">Multiply</button>
+<button onclick="div()">Division</button>
 <button>Clear</button>
 </body>
 </html>

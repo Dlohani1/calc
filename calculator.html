@@ -15,6 +15,15 @@ Result : <input type="text" id="result" readonly placeholder="Result">
 <button onclick="sub()">Subtract</button>
 <button onclick="multiply()">Multiply</button>
 <button onclick="div()">Division</button>
-<button>Clear</button>
+<button onclick="clearAll()">Clear</button>
+<script>
+function clearAll() {
+alert('test')
+document.getElementById("firstno").value = " "
+document.getElementById("secondno").value = " "
+document.getElementById("result").value = " "
+}
+
+</script>
 </body>
 </html>
